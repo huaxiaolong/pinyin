@@ -1,5 +1,7 @@
 <?php
 
+include dirname(__FILE__) . '/pinyin.class.php';
+
 short_test();
 long_test();
 
