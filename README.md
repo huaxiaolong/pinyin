@@ -10,6 +10,8 @@ Xiaolong PHP Pinyin Library
 <p>Pinyin::isChinese($chr) => true|false</p>
 <p>2.根据给定的字符返回所有的拼音</p>
 <p>Pinyin::getPinyins($chr) => 差 array('CHAI', 'CI', 'CHA')</p>
+<p>3.根据给定的字符返回所有的拼音</p>
+<p>Pinyin_Ext::getFirstPinyin($str) => IBM中国有限公司 IBMZGYXGS</p>
 
 <p>算法和数据结构参考：http://zh.lucida.me/blog/lucida-pinyin-converter/</p>
 <p>感谢lucida的文章</p>
