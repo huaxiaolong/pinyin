@@ -1,6 +1,7 @@
 <?php
 
-include __DIR__.'/pinyinext.class.php';
+defined('DS') or define('DS', DIRECTORY_SEPARATOR);
+require __DIR__.DS.'pinyinext.class.php';
 
 short_test();
 long_test();

@@ -7,7 +7,7 @@ defined('DS') or define('DS', DIRECTORY_SEPARATOR);
 require __DIR__.DS.'pinyin.class.php';
 class Pinyin_Ext extends Pinyin
 {
-    public static getFirstPinyin($str)
+    public static function getFirstPinyin($str)
     {
         $str = strtoupper($str);
         $pys = '';
